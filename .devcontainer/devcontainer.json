@@ -1,0 +1,29 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
+"ghcr.io/jarrodcolburn/features/android-sdk:0": {"ghcr.io/akhildevelops/devcontainer-features/android-cli:0": {}}
+"ghcr.io/flexwie/devcontainer-features/op:1": {}
+"ghcr.io/devcontainers-contrib/features/aws-cdk:2": {"ghcr.io/devcontainers-contrib/features/amplify-cli:2": {}}
+"ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {}
+
+"ghcr.io/akhildevelops/devcontainer-features/apt:22": {}
+
+
+\
+
+    "name": "IAMCreating-ARTISTSCHANGINGTHEWORLD",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
+    "features": { "ghcr.io/gmkonan/feature/airplane:1": {} 
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "version": "latest",
+            "moby": true
+        }
+    }
+}
+
+  
